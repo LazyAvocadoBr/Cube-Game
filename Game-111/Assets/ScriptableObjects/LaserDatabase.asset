@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cac7ebc3445f15f41a0dcad94a2e9921, type: 3}
+  m_Name: LaserDatabase
+  m_EditorClassIdentifier: 
+  laserVariants:
+  - name: Red
+    mask:
+      serializedVersion: 2
+      m_Bits: 8320
+    type: 0
+    material: {fileID: 2100000, guid: 9787dbfc6fe4cda42b470b02c9acc0b6, type: 2}
+  - name: White
+    mask:
+      serializedVersion: 2
+      m_Bits: 10368
+    type: 2
+    material: {fileID: 2100000, guid: 5daa7e0f00fd8c54aa6bd52c7e29cd3e, type: 2}
+  - name: Black
+    mask:
+      serializedVersion: 2
+      m_Bits: 12416
+    type: 1
+    material: {fileID: 2100000, guid: 0e3200d0c5d4fba4a8ac3983e6e4ad5e, type: 2}
